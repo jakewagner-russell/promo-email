@@ -1,0 +1,340 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" padding="0px" color="#030328"/>
+            <mj-image padding="0px"/>
+            <mj-button background-color="#5b1ce6" font-size="18px" line-height="22px" border-radius="30px" color="#fff" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" text-transform="uppercase"/>
+            <mj-section padding="0px" background-color="#fff"/>
+            <mj-class name="bold" font-weight="bold"/>
+            <mj-class name="header-1" font-size="42px"/>
+            <mj-class name="header-2" font-size="32px" align="center" padding="36px 0 24px"/>
+            <mj-class name="header-3" font-size="14px" letter-spacing="1px"/>
+            <mj-class name="header-4" font-size="16px" />
+            <mj-class name="day-section-dark" background-color="#030328"/>
+            <mj-class name="day-section-p" font-size="14px" line-height="17px" />
+            <mj-class name="day-section-btn" padding="16px 0" inner-padding="4px 24px" font-size="14px" align="left" />
+            <mj-class name="streaming-section-p" color="#7f7f7f" align="center" line-height="20px"/>
+            <mj-class name="streaming-section-subheader" font-size="11px" letter-spacing="1px"/>
+            <mj-class name="footer-section" background-color="#000" color="#fff"/>
+            <mj-class name="footer-logo" width="24px" height="24px" />
+            <mj-class name="fineprint" font-size="10px" line-height="15px"/>
+            <mj-style>
+                @media {max-width: 480px} {
+                    .text-center {
+                        text-align: center;
+                    }
+
+                    .text-left {
+                        text-align: left !important;
+                    }
+                }
+            </mj-style>
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#e6e6ea">
+        <!-- Hero -->
+        <mj-section>
+            <mj-column>
+                <mj-image src="header.png" alt="HBO Max" />
+                <mj-image src="promo_hero.gif" alt="HBO Max" />
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column padding="0 24px">
+                <mj-text mj-class="header-1 bold" align="center" padding="36px 0 18px">
+                    Have a Holiday Merry-thon
+                </mj-text>
+                <mj-text align="center" font-size="16px" line-height="24px">
+                    Whether you’ve been naughty or nice, spend the long weekend streaming picks from everyone’s watch list.
+                </mj-text>
+                <mj-button mj-class="bold" padding="24px 0" href="https://google.com" width="250px">
+                       Find Holiday Hits
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Thursday Night -->
+        <mj-section mj-class="day-section-dark">
+            <mj-column padding="0 24px">
+                <mj-text mj-class="header-2 bold" css-class="text-left" color="#fff">
+                    Thursday Night
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="day-section-dark">
+            <mj-column padding="0 24px">
+                <mj-image src="matrix_resurrections.jpg" alt="The Matrix Resurrections Poster" padding-bottom="24px" fluid-on-mobile="true"/>
+            </mj-column>
+            <mj-column padding="0 24px">
+                <mj-text mj-class="bold" css-class="text-center" color="#fff" padding-bottom="10px">
+                    The Matrix Resurrections
+                </mj-text>
+                <mj-text css-class="text-center" color="#fff" line-height="18px">
+                    Return to the source. <em>The Matrix Resurrections</em> reunites Keanu Reeves and Carrie-Anne Moss in their iconic roles as Neo and Trinity. <strong>Now in theaters and streaming exclusively on HBO Max.</strong>
+                </mj-text>
+                <mj-button mj-class="day-section-btn bold" href="https://hbomax.com">
+                    + Add to My List
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="day-section-dark" padding-bottom="36px">
+            <mj-column padding="0 24px">
+                <mj-text color="#fff" align="center" mj-class="fineprint" css-class="text-left">
+                    Streaming on HBO Max through January 21, 2022.
+                </mj-text>
+                <mj-text color="#fff" align="center" mj-class="fineprint" css-class="text-left">
+                    Streaming in 4K UHD, HDR10, Dolby Vision, and Dolby Atmos on supported devices.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Friday Morning -->
+        <mj-section>
+            <mj-column padding="0 24px">
+                <mj-text mj-class="header-2 bold">
+                    Friday Morning
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-bottom="36px">
+            <mj-column padding="0 24px">
+                <mj-image src="reopening_night.jpg" alt="The Matrix Resurrections Poster" padding-bottom="24px" fluid-on-mobile="true"/>
+            </mj-column>
+            <mj-column padding="0 24px ">
+                <mj-text mj-class="bold" padding-bottom="10px">
+                    Reopening Night
+                </mj-text>
+                <mj-text line-height="18px">
+                    See the behind-the-scenes story of New York’s Public Theater as it returns to the stage, showing the world that despite everything, art will always survive.
+                </mj-text>
+                <mj-button mj-class="day-section-btn bold" href="https://hbomax.com">
+                    + Add to My List
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+         <!-- Christmas Eve-->
+        <mj-section mj-class="day-section-dark">
+            <mj-column padding="0 24px">
+                <mj-text mj-class="header-2 bold" color="#fff">
+                    Christmas Eve
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="day-section-dark" padding-bottom="36px">
+            <mj-column padding="0 24px">
+                <mj-image src="elf.jpg" alt="The Matrix Resurrections Poster" padding-bottom="24px" fluid-on-mobile="true"/>
+            </mj-column>
+            <mj-column padding="0 24px">
+                <mj-text mj-class="bold" color="#fff" padding-bottom="10px">
+                    ELF
+                </mj-text>
+                <mj-text color="#fff" line-height="18px">
+                    “The best way to spread Christmas cheer is singing loud for all to hear.” This Christmas Eve, take on Manhattan with Buddy the Elf in this hilarious holiday hit.
+                </mj-text>
+                <mj-button mj-class="day-section-btn bold" href="https://hbomax.com">
+                    + Add to My List
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Christmas Morning -->
+        <mj-section>
+            <mj-column padding="0 24px">
+                <mj-text mj-class="header-2 bold">
+                    Christmas Morning
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-bottom="36px">
+            <mj-column padding="0 24px">
+                <mj-image src="christmas_story.jpg" alt="The Matrix Resurrections Poster" padding-bottom="24px" fluid-on-mobile="true"/>
+            </mj-column>
+            <mj-column padding="0 24px">
+                <mj-text mj-class="bold" padding-bottom="10px">
+                    A Christmas Story
+                </mj-text>
+                <mj-text line-height="18px">
+                    There’s no feeling quite like Christmas morning. Don your footie pajamas and cue the nostalgia. This family favorite is just as good as you remember it.
+                </mj-text>
+                <mj-button mj-class="day-section-btn bold" href="https://hbomax.com">
+                    + Add to My List
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+         <!-- Christmas Night-->
+        <mj-section mj-class="day-section-dark">
+            <mj-column padding="0 24px">
+                <mj-text mj-class="header-2 bold" color="#fff">
+                    Christmas Night
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="day-section-dark" padding-bottom="36px">
+            <mj-column padding="0 24px">
+                <mj-image src="miracle_on_34th.jpg" alt="The Matrix Resurrections Poster" padding-bottom="24px" fluid-on-mobile="true"/>
+            </mj-column>
+            <mj-column padding="0 24px">
+                <mj-text mj-class="bold" color="#fff" padding-bottom="10px">
+                    Miracle on 34th Street
+                </mj-text>
+                <mj-text color="#fff" line-height="18px">
+                    After the last present is unwrapped, cozy up with your crew and feel the spirit of the season with a classic that will have you believing in magic all over again.
+                </mj-text>
+                <mj-button mj-class="day-section-btn bold" href="https://hbomax.com">
+                    + Add to My List
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Sunday Morning -->
+        <mj-section>
+            <mj-column padding="0 24px">
+                <mj-text mj-class="header-2 bold">
+                    Sunday Night
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-bottom="36px">
+            <mj-column padding="0 24px">
+                <mj-image src="miss_congeniality.jpg" alt="The Matrix Resurrections Poster" padding-bottom="24px" fluid-on-mobile="true"/>
+            </mj-column>
+            <mj-column padding="0 24px">
+                <mj-text mj-class="bold" padding-bottom="10px">
+                    Miss Congeniality
+                </mj-text>
+                <mj-text line-height="18px">
+                    The holidays may be over, but the fun doesn’t have to end. Sandra Bullock shines in this comedy as an undercover FBI agent competing in a beauty pageant.
+                </mj-text>
+                <mj-button mj-class="day-section-btn bold" href="https://hbomax.com">
+                    + Add to My List
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Christmas Night-->
+        <mj-section mj-class="day-section-dark">
+            <mj-column padding="0 24px">
+                <mj-text mj-class="header-2 bold" color="#fff">
+                    Sunday Night
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="day-section-dark" padding-bottom="36px">
+            <mj-column padding="0 24px" css-class="day-mobile-col">
+                <mj-image src="beforeigners.jpg" alt="The Matrix Resurrections Poster" padding-bottom="24px" fluid-on-mobile="true"/>
+            </mj-column>
+            <mj-column padding="0 24px">
+                <mj-text mj-class="bold" color="#fff" padding-bottom="10px">
+                    Beforeigners
+                </mj-text>
+                <mj-text color="#fff" line-height="18px">
+                    End the weekend on the edge of your seat. This six-part Max Original sci-fi series has time travel, murder, and plenty of genre-bending action.
+                </mj-text>
+                <mj-button mj-class="day-section-btn bold" href="https://hbomax.com">
+                    + Add to My List
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Streaming Options Section -->
+        <mj-section>
+            <mj-column padding="0 24px">
+                <mj-text mj-class="header-3 bold" align="center" padding="24px 0 12px">
+                    Where To Stream HBO Max
+                </mj-text>
+                <mj-image src="screens.png" alt="Icons of Desktop, Laptop, Gaming Device, Tablet, and Mobile" padding="12px 24px" css-class="screen-size-img"/>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0 30px">
+            <mj-column padding="0">
+            <mj-text mj-class="streaming-section-p bold">
+                    <span style="padding: 0 6px 0 0">Amazon Fire TV</span>
+                    <span style="padding: 0 6px">Android TV</span>
+                    <span style="padding: 0 6px">Apple TV</span>
+                    <span style="padding: 0 6px">VIZIO</span>
+                    <span style="padding: 0 6px">Chromecast</span>
+                    <span style="padding: 0 6px">LG</span>
+                    <span style="padding: 0 0 0 6px">Roku</span>
+                </mj-text>
+                <mj-text mj-class="streaming-section-p bold">
+                    <span style="padding: 0 6px 0 0">Samsung TV</span>
+                    <span style="padding: 0 6px">Chrome OS</span>
+                    <span style="padding: 0 6px">MacOS</span>
+                    <span style="padding: 0 6px">Windows PC</span>
+                    <span style="padding: 0 6px">PS5</span>
+                    <span style="padding: 0 6px">PS4</span>
+                    <span style="padding: 0 0 0 6px">Xbox Series X|S</span>
+                </mj-text>
+                <mj-text mj-class="streaming-section-p bold">
+                    <span style="padding: 0 6px 0 0">Xbox One</span>
+                    <span style="padding: 0 6px">Amazon Fire Tablet</span>
+                    <span style="padding: 0 6px">Android Phone & Tablet</span>
+                    <span style="padding: 0 0 0 6px">iPhone & iPad</span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="25px 10px">
+            <mj-column>
+                <mj-image src="google_play.png" alt="Get it on Google Play" width="152px" height="45px" padding="0 0 15px"/>
+            </mj-column>
+            <mj-column>
+                <mj-image src="apple.png" alt="Download on the Apple App Store" padding="0 10px 15px" width="133px" height="45px" />
+            </mj-column>
+            <mj-column>
+                <mj-image src="amazon.png" alt="Available at Amazon Appstore" padding-right="10px" width="152px" height="45px"/>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text mj-class="streaming-section-subheader bold" align="center" padding="0 24px 24px">
+                    Subscription plans vary by subscription provider.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Footer -->
+        <mj-section mj-class="footer-section" css-class="social-icons" padding="24px 50px">
+            <mj-group>
+                <mj-column>
+                    <mj-image mj-class="footer-logo" src="facebook.png" alt="Facebook" />
+                </mj-column>
+                <mj-column>
+                    <mj-image mj-class="footer-logo" src="twitter.png" alt="Twitter" />
+                </mj-column>
+                <mj-column>
+                    <mj-image mj-class="footer-logo" src="instagram.png" alt="Instagram" />
+                </mj-column>
+                <mj-column>
+                    <mj-image mj-class="footer-logo" src="youtube.png" alt="YouTube" />
+                </mj-column>
+                <mj-column>
+                    <mj-image mj-class="footer-logo" src="tiktok.png" alt="TikTok" />
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section mj-class="footer-section" padding="0 0 36px">
+            <mj-column padding="0 24px">
+                <mj-image src="hbo_max.png" alt="HBO Max logo" width="134px" height="25px"/>
+                <mj-text color="#fff" align="center" padding="24px 0">
+                    30 Hudson Yards, New York, NY 10001
+                </mj-text>
+                <mj-text color="#fff" align="center" padding="0 0 24px">
+                    <a href="https://hbomax.com" style="color: #fff; text-decoration: none">HBOMax.com</a>
+                    |
+                    <a href="https://hbomax.com" style="color: #fff; text-decoration: none">Privacy Policy</a>
+                    |
+                    <a href="https://hbomax.com" style="color: #fff; text-decoration: none">Unsubscribe</a>
+                    |
+                    <a href="https://hbomax.com" style="color: #fff; text-decoration: none">Help Center</a>
+                </mj-text>
+                <mj-text mj-class="fineprint" color="#fff" align="center" padding="0 24px">
+                    This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.
+                    <br>
+                    Reference ID: 4248
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
